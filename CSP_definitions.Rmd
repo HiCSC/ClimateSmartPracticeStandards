@@ -1,0 +1,201 @@
+---
+title: "Climate Smart Practices"
+author: "Todd-Brown, Katherine"
+date: "2024-01-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(pdftools)
+library(yaml)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+directYAML <- 'data_lvl01'
+
+pdfFiles <- list.files(path = 'USDA_CSP_pdf', full.names = TRUE, recursive = TRUE)
+
+#temp <- pdf_text(pdf = 'CSP/Data Extraction Helping Circle_Practice Standards and Deviations/311_Alley Cropping/311_PI_CPS_Alley_Cropping_2018.pdf')
+
+for(ii in 1:length(pdfFiles)){
+  sourcePDF <- pdfFiles[ii]
+  temp <- pdf_text(pdf = sourcePDF)
+  org_temp <- temp
+  
+  #remove boilerplate NRCS fair practice declariation
+  temp <- str_remove(temp, 
+                     regex('NRCS reviews and periodically updates conservation practice standards.*$', 
+                           dotall = TRUE))
+  
+  
+  code <- str_extract(basename(sourcePDF), '^\\d{3}')
+  practiceName <- str_extract(basename(sourcePDF), '(?<=\\d{3}_)\\w*(?=_\\w+_CPS)')
+  standard <- str_extract(basename(sourcePDF), '(?<=_)[^_]*(?=_CPS)')
+  year <- str_extract(basename(sourcePDF), '\\d{4}(?=.pdf)')
+  
+  #keep the type of practice and the date as the version
+  version <- str_replace_all(str_remove_all(
+    str_extract(temp[length(temp)], 'NRCS, .*\\n .* \\d{4}\n'),
+    pattern = '\\n'),
+    pattern = '\\s{2,}', replacement = ' - ') %>%
+    str_remove(pattern = 'NRCS, ')
+  
+  #remove the version from the text to be processed so that the page text wraps
+  temp <- str_remove(temp, 'NRCS, .*\\n .* \\d{4}\n')
+  
+  #extract the header from the first page before the definition
+  header <- unlist(str_split(trimws(str_extract(string = temp[1], pattern = '^[\\w\\W]*(?=DEFINITION)')), pattern='\\n?\\n?\\s{2,}'))
+  
+  practiceAbv <- header[str_detect(header, '\\(\\w+\\)')]
+  practiceName <- header[! header %in% c("Natural Resources Conservation Service",
+                                         "CONSERVATION PRACTICE STANDARD",
+                                         "United States Department of Agriculture") &
+                           ! str_detect(header, '\\(\\w+\\)') &
+                           ! str_detect(header, '\\d')]
+  
+  
+  #remove the header from the text
+  temp[1] <- str_remove(string = temp[1], pattern = '^[\\w\\W]*(?=DEFINITION)')
+  
+  #Remove the practice code and page from the top of the page so that the text wraps
+  #temp <- str_remove(temp, str_replace_all(str_replace_all(header[2], '-', '\\.'), '\\d$', '\\\\d'))
+  temp <- str_remove(temp, '^\\s*\\d{1,}\\-CPS\\-\\d+\\n')
+  
+  #make everything one page now that the header and footers are stripped out
+  temp <- paste(temp, collapse = '')
+  
+  #pull out. the definition that appears between the DEFINITION and PURPOSE sections
+  definition <- str_replace(
+    trimws(
+      str_extract(string = temp, 
+                  pattern = regex('(?<=DEFINITION).*(?=PURPOSE)', dotall = TRUE))), 
+    pattern = '\\n+\\s*', replacement = ' ')
+  
+  purpose <- 
+    str_replace_all(
+      unlist(
+        str_split(
+          trimws(
+            str_extract(string = temp, 
+                        pattern = '(?<=PURPOSE)[\\w\\W]*(?=CONDITIONS WHERE PRACTICE APPLIES)')
+          ),
+          pattern = '(\\n\\n)?(\\s*•\\s*)')
+      ),
+      pattern = '(\\n|\\s)+', replacement = ' ')
+  
+  applicable_conditions <- trimws(str_replace_all(
+    unlist(
+      str_split(
+        trimws(
+          str_extract(string = temp, 
+                      pattern = '(?<=CONDITIONS WHERE PRACTICE APPLIES)[\\w\\W]*(?=CRITERIA)')
+        ),
+        pattern = '\\n\\n')
+    ),
+    pattern = '\\s+', replacement = ' '))
+  
+  criteria <- trimws(
+    str_extract(string = temp, 
+                pattern = '(?<=CRITERIA)[\\w\\W]*(?=CONSIDERATIONS)'))
+  
+  general_criteria <- 
+    str_replace_all(
+      unlist(
+        str_split(
+          trimws(
+            str_replace_all(
+              str_replace(
+                str_remove(string = criteria,
+                           pattern = regex('Additional Criteria.*$',
+                                           dotall = TRUE)),
+                pattern = '(General Criteria.*)\\n', replacement = '\\1\n\n'),
+              pattern='\\s+•', replacement = '\n\n•')
+          ),
+          pattern = '\\n\\n\\s*')
+      ),
+      pattern = '\\n\\s*', replacement = ' ')
+  
+  additional_criteria <- 
+    lapply(
+      str_split(
+          str_replace(
+            paste0('Additional Criteria ', 
+                   unlist(
+                     str_split(
+                       str_extract(string = criteria,
+                                   pattern = regex('Additional Criteria.*$', dotall = TRUE)),
+                       pattern = '\\n\\nAdditional Criteria ')
+                   )
+            ),
+            pattern = '(Additional Criteria.*)\\n', replacement = '\\1\n\n'),
+
+        pattern = '\\n\\n+'),
+      str_replace_all, pattern = '\\n', replacement = ' ')
+  
+  considerations <- 
+    str_replace_all(
+      unlist(
+        str_split(
+          trimws(
+            str_extract(string = temp, 
+                        pattern = '(?<=CONSIDERATIONS)[\\w\\W]*(?=PLANS AND SPECIFICATIONS)')
+          ),
+          pattern = '\\n\\n')
+      ),
+      pattern = '\\n', replacement = ' ')
+  
+  plans_and_specifications <- 
+    str_replace_all(
+      unlist(
+        str_split(
+          trimws(
+            str_extract(string = temp, 
+                        pattern = '(?<=PLANS AND SPECIFICATIONS)[\\w\\W]*(?=OPERATION AND MAINTENANCE)')
+          ),
+          pattern = '\\n\\n')
+      ),
+      pattern = '\\n', replacement = ' ')
+  
+  operations_and_maintanance <- 
+    str_replace_all(
+      unlist(
+        str_split(
+          trimws(
+            str_extract(string = temp, 
+                        pattern = '(?<=OPERATION AND MAINTENANCE)[\\w\\W]*(?=REFERENCES)')),
+          pattern = '\\n\\n')
+      ),
+      pattern = '\\n', replacement = ' ')
+  
+  references <- 
+    str_replace_all(
+      unlist(
+        str_split(
+          trimws(
+            str_extract(string = temp, 
+                        pattern = '(?<=REFERENCES)[\\w\\W]*')
+          ),
+          pattern = '\\n\\n')
+      ),
+      pattern = '\n', '')
+  
+  
+  as.yaml(list(practice_name = practiceName,
+               #practice_abv = practiceAbv,
+               version = version,
+               definition = definition,
+               purpose = purpose,
+               applicable_conditions = applicable_conditions,
+               criteria = list(general = general_criteria, additional = additional_criteria),
+               considerations = considerations,
+               plans_and_specifications = plans_and_specifications,
+               operations_and_maintanance = operations_and_maintanance,
+               references = references)) %>%
+    write_file(file = file.path(directYAML, paste0(str_remove(basename(sourcePDF), 'pdf'), 'yaml')))
+ 
+  
+}
+```
