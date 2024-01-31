@@ -49,7 +49,7 @@ for(ii in 1:length(pdfFiles)){
   #extract the header from the first page before the definition
   header <- unlist(str_split(trimws(str_extract(string = temp[1], pattern = '^[\\w\\W]*(?=DEFINITION)')), pattern='\\n?\\n?\\s{2,}'))
   
-  practiceAbv <- header[str_detect(header, '\\(\\w+\\)')]
+  unitAbv <- header[str_detect(header, '\\(\\w+\\)')]
   practiceName <- header[! header %in% c("Natural Resources Conservation Service",
                                          "CONSERVATION PRACTICE STANDARD",
                                          "United States Department of Agriculture") &
@@ -127,7 +127,7 @@ for(ii in 1:length(pdfFiles)){
                      str_split(
                        str_extract(string = criteria,
                                    pattern = regex('Additional Criteria.*$', dotall = TRUE)),
-                       pattern = '\\n\\nAdditional Criteria ')
+                       pattern = '\\n\\n+\\s*Additional Criteria ') #Additional Criteria
                    )
             ),
             pattern = '(Additional Criteria.*)\\n', replacement = '\\1\n\n'),
@@ -151,26 +151,33 @@ for(ii in 1:length(pdfFiles)){
     str_replace_all(
       unlist(
         str_split(
-          trimws(
-            str_extract(string = temp, 
-                        pattern = '(?<=PLANS AND SPECIFICATIONS)[\\w\\W]*(?=OPERATION AND MAINTENANCE)')
-          ),
+          str_replace_all(
+            str_replace_all(
+              trimws(
+                str_extract(string = temp, 
+                            pattern = '(?<=PLANS AND SPECIFICATIONS)[\\w\\W]*(?=OPERATION AND MAINTENANCE)')
+              ),
+              pattern = '\\s+(\\d\\.)',replacement = '\n\n\\1'),
+            pattern = '\\s+(•\\s+)',replacement = '\n\n\\1'),
           pattern = '\\n\\n')
       ),
-      pattern = '\\n', replacement = ' ')
+      pattern = '\\n|(\\s+)', replacement = ' ')
   
   operations_and_maintanance <- 
     str_replace_all(
       unlist(
         str_split(
-          trimws(
-            str_extract(string = temp, 
-                        pattern = '(?<=OPERATION AND MAINTENANCE)[\\w\\W]*(?=REFERENCES)')),
+          str_replace_all(
+            trimws(
+              str_extract(string = temp, 
+                          pattern = '(?<=OPERATION AND MAINTENANCE)[\\w\\W]*(?=REFERENCES)')),
+            pattern = '\\s+(•\\s+)',replacement = '\n\n\\1'),
           pattern = '\\n\\n')
       ),
-      pattern = '\\n', replacement = ' ')
+      pattern = '\\n|(\\s+)', replacement = ' ')
   
   references <- 
+    str_replace_all(
     str_replace_all(
       unlist(
         str_split(
@@ -180,11 +187,12 @@ for(ii in 1:length(pdfFiles)){
           ),
           pattern = '\\n\\n')
       ),
-      pattern = '\n', '')
+      pattern = '\n', ''),
+    pattern = '\\s+', ' ')
   
   
   as.yaml(list(practice_name = practiceName,
-               #practice_abv = practiceAbv,
+               unit = unitAbv,
                version = version,
                definition = definition,
                purpose = purpose,
@@ -194,8 +202,46 @@ for(ii in 1:length(pdfFiles)){
                plans_and_specifications = plans_and_specifications,
                operations_and_maintanance = operations_and_maintanance,
                references = references)) %>%
-    write_file(file = file.path(directYAML, paste0(str_remove(basename(sourcePDF), 'pdf'), 'yaml')))
+    write_file(file = file.path(directYAML, paste0(str_remove(basename(sourcePDF), 'pdf'), 'yaml'))
+                )
  
   
 }
+```
+
+```{sh eval = FALSE}
+  cp data_lvl01/* data_lvl02/
+```
+
+#Standard differences
+
+## CSP 315 Herbaceous Weed Treatement
+
+NHCP standards allow Prescribed Burning (Code 338) and Forage Harvest Management (Code 511), where as PI standards do not.
+
+```{sh}
+diff data_lvl01/315_Herbaceous_Weed_Treatment_NHCP_CPS_10_2020.yaml data_lvl01/315_Herbaceous_Weed_Treatment_PI_CPS_2022.yaml
+```
+
+## CSP 317 Composting Facility
+
+Significant deviations present. Needs to be hand coded.
+
+```{sh eval=FALSE}
+diff data_lvl01/317_Composting_Facility_NHCP_CPS_2020.yaml data_lvl01/317_Composting_Facility_PI_CPS_2017.yaml
+```
+
+## CSP 329 Residue and tillage management no till
+
+TODO need to reprocess text
+
+```{sh}
+diff data_lvl01/329_Residue_And_Tillage_Management_No_Till_NHCP_CPS_0.yaml data_lvl01/329_Residue_and_Tillage_Management_No_Till_PI_CPS_2017.yaml
+```
+
+
+## CSP 379 Forest Farming
+
+```{sh}
+diff data_lvl01/379_Forest_Farming_NHCP_CPS_2020.yaml data_lvl01/379_Forest_Farming_PIA_CPS_2023.yaml
 ```
