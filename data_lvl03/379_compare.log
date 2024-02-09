@@ -1,0 +1,39 @@
+4c4
+< version: NHCP - July 2022
+---
+> version: PI - October 2022
+14a15
+> - '           • Increase carbon storage in biomass and soils'
+50a52,65
+>   - Select species with traits that facilitate increased nutrient cycling and boost
+>     organic matter, such as vigorously re-sprouting species for coppicing, species
+>     with nitrogen fixation capability, or those that shed large quantities of biomass.
+>     Establish management systems that provide frequent biomass inputs to the forest
+>     floor, such as a coppice rotation or regular pruning.
+>   - Incorporate unused residues from pruning, coppicing, or harvesting back into the
+>     soil by mulching or processing into biochar before reapplication to the greatest
+>     extent feasible. Refer to CPS 384 for treatment of woody residues.
+>   for Incresing Carbon Storage in Biomass and Soils:
+>   - Where practical adjust plant spacing and speciesselection to increase above and
+>     belowground productivity for increased carbon capture and storage. Select tree species with
+>     high carbon storage potential.
+>   - Manage without tillage, where possible, to reduce impacts on soil organic matter.
+>     Limit the useof petroleum-based herbicides and fertilizers.
+61,62c76,77
+<   may help address client objectives. If periodic pruning is anticipated, consider
+<   coppice ability when choosing tree and shrub species.
+---
+>   may help address client objectives. Consider pruning requirements, response to coppicing,
+>   and life cycle when choosing tree and shrub species.
+68,69c83,84
+<   management may be able to provide a resource for energy production or used onsite
+<   to enhance soil health.
+---
+>   management may be able to provide a resource for energy production, be used as biochar
+>   feedstock or used onsite to enhance soil health.
+83a99,100
+> - '       • Height potential and crown width of each species and placement adjacent
+>   to different species'
+88a106,107
+> - Establish and impliment a schedule for periodic pruning, coppicing or crop rotation
+>   as applicable to specific species or functional groups.
