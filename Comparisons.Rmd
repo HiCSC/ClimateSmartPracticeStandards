@@ -1,0 +1,103 @@
+---
+title: "Pacific Island to National standards comparisons"
+author: "Todd-Brown, Katherine"
+date: "2024-02-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## CSP 380 Windbreak
+
+```{sh}
+diff data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yaml data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yaml > data_lvl03/380_compare.log
+```
+
+```{r}
+NHCP380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yaml')
+PIA380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yaml')
+
+```
+
+
+## CSP 379 Forest Farming
+
+```{sh}
+diff data_lvl02/379_Forest_Farming_NHCP_CPS_2020.yaml data_lvl02/379_Forest_Farming_PIA_CPS_2023.yaml > data_lvl03/379_compare.log
+```
+
+```{r}
+PIA380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yaml')
+
+NHCP380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yaml')
+
+#base::intersect(PIA380, NHCP380)
+```
+
+## CSP 612 Tree Shrub Establishment
+
+```{sh}
+diff data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yaml data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yaml > data_lvl03/612_compare.log
+```
+
+```{r}
+PIA612 <- read_yaml('data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yaml')
+
+NHCP612 <- read_yaml('data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yaml')
+
+```
+
+### Symantic differences
+
+#### Definition
+PI standards allow for "seedlings or cuttings" where as national standard does not.
+
+```{r}
+PIA612$definition
+NHCP612$definition
+```
+
+#### Purpose
+
+PI standards allow for "`r PIA612$purpose[8]`"
+
+All other differences seem to be semantic
+
+```{r}
+PIA612$purpose
+NHCP612$purpose
+```
+
+Conditions are the same.
+
+#### Criteria 
+
+TODO CHECK CRITERIA TO SEE IF THERE ARE SIGNIFICANT DIFFERENCES
+
+```{r}
+PIA612$criteia
+
+NHCP612$criteia
+```
+
+#### considerations
+
+PI does not have 'Reducing Energy Use' as a possible consideration
+
+TODO CHECK CONSIDEATIONS FOR EFFECTIVE MAPPING
+
+```{r}
+PIA612$considerations
+
+NHCP612$considerations
+```
+
+## Pending
+
+Mulching 484
+Conservation cover 327
+Nutrient Management 590
+
