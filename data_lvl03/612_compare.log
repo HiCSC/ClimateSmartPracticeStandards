@@ -1,0 +1,365 @@
+1c1
+< practice_name: TREE-SHRUB ESTABLISHMENT
+---
+> practice_name: TREE/SHRUB ESTABLISHMENT
+4,5c4,5
+< version: NHCP - December 2022
+< definition: Establishing woody plants by planting, by direct seeding, or through natural regeneration.
+---
+> version: PI - January 2017
+> definition: Establishing woody plants by planting seedlings or cuttings, by direct seeding, and/or through natural regeneration.
+7c7
+< - 'This practice is used to accomplish one or more of the following purposes:'
+---
+> - Establish woody plants to—
+10,12c10,11
+< - '           • Create or improve habitat for target wildlife species, beneficial
+<   organisms, or pollinator species compatible with ecological characteristics of the
+<   site'
+---
+> - '           • Create or improve habitat for desired wildlife species compatible
+>   with ecological characteristics of the site'
+14,16c13,14
+< - '           • Improve water quality by reducing excess nutrients and other pollutants
+<   in runoff and ground water'
+< - '           • Restore or maintain native plant communities'
+---
+> - '           • Improve water quality. Reduce excess nutrients and other pollutants
+>   in runoff and groundwater'
+17a16,17
+> - '           • Restore or maintain native plant communities'
+> - '           • Develop renewable energy systems'
+19,20c19,20
+< - '           • Provide livestock shelter'
+< conditions: Tree-shrub establishment can be applied on any site capable of growing
+---
+> - '           • Provide for beneficial organisms and pollinators'
+> conditions: Tree/shrub establishment can be applied on any site capable of growing
+24,70c24,64
+<   - Select one or more species that are suited to site conditions, appropriate for
+<     the planned purpose(s).
+<   - Utilize ecological site descriptions, natural plant communities, conservation
+<     tree and shrub guides, or comparable reference sites to guide species selection.
+<   - Determine desired stocking levels for trees and/or shrubs based on landowner objectives
+<     and ecological characteristics of the site and species. Plant, seed, or naturally
+<     regenerate at densities and rates that reflect anticipated seedling mortality
+<     to achieve desired stocking levels in the established stand.
+<   - Use NRCS Conservation Practice Standard (CPS) Tree-Shrub Site Preparation (Code
+<     490) to prepare sites for planting, seeding, or natural regeneration if conditions
+<     are not suitable for establishing the desired plants. Use NRCS CPSs Brush Management
+<     (Code 314), Herbaceous Weed Treatment (Code 315), or Prescribed Burning (Code
+<     338) after planting, as needed, to create desirable conditions for establishing
+<     the desired plants.
+<   - When utilizing natural regeneration to establish trees and/or shrubs, an adequate
+<     source of seed, vegetative propagules, or advanced regeneration must be present
+<     or planned at a level sufficient to achieve objectives. Where natural regeneration relies on seed sources, apply any
+<     needed stand treatments and site preparation at appropriate times to facilitate
+<     germination and establishment of seeds from desired species. Modify forest stand
+<     conditions prior to initiating natural regeneration to obtain the desired species
+<     composition, density, and arrangement of trees and shrubs as needed, using supporting
+<     conservation practices.
+<   - Implement coppice regeneration (originating from root shoots or stump sprouts)
+<     based on suitability of tree species, age, diameter, and site conditions. Determine
+<     the correct timing for coppice regeneration based on species characteristics.
+<   - Select only viable, high-quality, and adapted plant materials. Do not establish
+<     species on the Federal or State invasive species or noxious weed lists. Select
+<     planting stock that conforms to established seed transfer protocols within the
+<     State and complies with minimum standards accepted by the American National Standards
+<     Institute (ANSI). Choose planting dates, techniques, and handling methods appropriate
+<     for the site conditions to increase rates of survival. Select species and adjust
+<     timing of establishment to minimize potential effects of known residual herbicides,
+<     as needed.
+<   - Evaluate the site to determine if mulching, supplemental water, or other cultural
+<     treatments (e.g., tree protection devices, shade cards, brush mats, etc.) are
+<     needed to ensure adequate survival and establishment, then utilize the appropriate
+<     supporting conservation practice. Minimize the need for supplemental water and/or
+<     nutrients by choosing site-adapted plant materials, planting methods, and planting
+<     seasons.
+<   - Protect tree and shrub plantings, seeded areas, and naturally regenerated areas
+<     from unacceptable adverse impacts from insects, disease, wildlife, livestock,
+<     and fire. Apply supporting practices and treatments as necessary to protect establishing
+<     trees and shrubs.
+<   - Use tree and shrub planting to supplement natural forest regeneration in locations
+<     where additional species or stem densities are desired to meet management objectives.
+<     Do not plant trees and shrubs under an overstory scheduled for harvest before
+<     seedlings have become established.
+---
+>   - Select one or more species that are suited to soil and site conditions, and appropriate
+>     for the planned purpose(s). Use the PIA Vegetative Specification to generate initial recommendations
+>     for planting lists.
+>   - Determine desired stocking levels for trees and/or shrubs based on ecological
+>     characteristics of the site and species, and landowner objectives. Plant or seed
+>     at densities/rates that reflect anticipated seedling mortality, to achieve desired
+>     stocking levels in the established stand.
+>   - Use NRCS Conservation Practice Standard (CPS) Tree/Shrub Site Preparation (Code
+>     490) as the initial practice to prepare sites for planting or seeding, if conditions
+>     are not suitable for establishing the desired plants.
+>   - Use tree/shrub planting to accomplish or supplement forest stand regeneration
+>     in locations where natural regeneration of desired species is not possible, or
+>     will not meet objectives.
+>   - Select only viable, high-quality, and adapted plant materials. Select planting
+>     stock that conforms to established seed transfer protocols within the State, and
+>     complies with minimum standards accepted by the American National Standards Institute
+>     (ANSI). Do not plant any species on the Federal or State invasive species or noxious
+>     weed lists.
+>   - Choose appropriate planting dates and handling methods to increase rates of survival.
+>     Select planting techniques and timing appropriate for soil and site conditions.
+>   - Alter species selection and/or timing of planting/seeding to minimize potential
+>     effects of residual chemical carryover, as needed.
+>   - Evaluate the site to determine if mulching, supplemental water or other cultural
+>     treatments (e.g., tree protection devices, shade cards, fertilizer, brush mats,
+>     etc.) are needed to assure adequate survival and establishment. Minimize the need
+>     for supplemental water and/or nutrients by choosing site-adapted plant materials,
+>     planting methods, and planting seasons. Where supplemental moisture is needed
+>     to achieve tree/shrub establishment use NRCS CPS Irrigation System, Microirrigation
+>     (Code 441).
+>   - Protect tree and shrub plantings, seeded areas, and naturally regenerated areas,
+>     from unacceptable adverse impacts of pests, wildlife, livestock, and/or fire.
+>     Protect from pests, as necessary, by applying integrated pest management techniques
+>     for pest prevention, avoidance, monitoring, and suppression.
+>   - Removal of products (e.g., trees, biomass, medicinal herbs, nuts, fruits, etc.)
+>     is allowed, provided that conservation purpose(s) are not compromised by the loss
+>     of vegetation or by harvesting disturbance.
+>   to Create or Improve Habitat for Desired Wildlife Species:
+>   - Specify site-appropriate target wildlife species, identify and establish plant
+>     species that will provide forage, browse, seed, cover, and/or nesting habitat for the desired wildlife species.
+>     High plant species diversity is desirable. Refer to species selection and establishment
+>     criteria in NRCS CPS Upland Wildlife Habitat Management (Code 645).
+74,75c68,69
+<     capacity. Use tree and shrub species that are tolerant of the types of pollutants
+<     contained in effluent or soils at the site.
+---
+>     capacity. Trees and shrubs used to reduce pollutants must be tolerant of the types
+>     of pollutants contained in effluent or soils at the site.
+77,84c71,73
+<   - Species selected for planting, seeding, or those favored in natural regeneration
+<     that are native to the site and will create a successional state that progresses toward the identified target
+<     plant community.
+<   for Wildlife Habitat:
+<   - Select tree and shrub species that provide food, cover, or connectivity to target
+<     wildlife species, including pollinators and beneficial organisms, as supported by a State approved wildlife
+<     habitat assessment, a specialist’s (e.g., biologist) report, or wildlife habitat
+<     management plan.
+---
+>   - Species selected for planting, or those favored in natural regeneration, will
+>     be native to the site and will create a successional state that progresses toward the identified target plant
+>     community.
+86,91c75,85
+<   - Maximize carbon storage by selecting tree and shrub species that have longer life
+<     spans, the ability to reach a large size, high wood density, and the potential for use in long-lived
+<     wood products. To meet both short and long-term objectives of a site, establish
+<     fully stocked stands for the selected rotation to sustain growth and vigor potential.
+<     Build forest resilience by favoring community composition and structural diversity
+<     of a site.
+---
+>   - For shorter term, rapid carbon sequestration, select species that have high-growth
+>     rates, recognizing that they are typically short-lived. For longer term storage of carbon, select plants
+>     with a long life span, the ability to reach a large size, high-wood density, and
+>     potential for use in long-lived products. Establish and maintain a fully stocked
+>     stand.
+>   for Developing Renewable Energy Systems:
+>   - Select plants that can provide adequate types and amounts of plant biomass to
+>     supply identified bioenergy needs.
+>   - Manage the intensity and frequency of energy biomass removals to prevent long-term
+>     negative impacts to the site. Harvest biomass for energy in a manner that will
+>     not compromise other intended purpose(s) and functions of the site.
+93,99c87,93
+<   - Increase energy efficiency by planting trees to provide shade for buildings. Use
+<     proper plant densities to optimize the shade produced. Select plants with a potential height growth that
+<     will be taller than the structure or facility being protected. Design tree and shrub plantings to avoid
+<     damage to structures and to allow adequate space for maintenance access to walls
+<     and windows. Plant at a distance that is greater than mature crown spread, and
+<     select species that develop deep root systems. To protect structures from heat
+<     loss due to wind, use NRCS CPS Windbreak/Shelterbelt Establishment and Renovation
+---
+>   - Increase energy efficiency by planting trees to provide shade for buildings. Select
+>     plants with a potential height growth that will be taller than the structure or facility being protected.
+>   - Use proper plant densities to optimize the shade produced.
+>   - Design tree and shrub plantings to avoid damage to structures, and to allow adequate
+>     space for maintenance access to walls and windows. Plant at a distance that is
+>     greater than mature crown spread, and select species that develop deep root systems.
+>   - To protect structures from heat loss due to wind, use NRCS CPS Windbreak Establishment
+101,104c95,101
+<   for Livestock Shelter:
+<   - Select trees with growth rates and crown characteristics to provide livestock
+<     adequate shade. Protect trees from livestock. Manage livestock with NRCS CPS Prescribed Grazing Plan (Code
+<     528).
+---
+>   for Habitat for Beneficial Organisms:
+>   - Plant trees and shrubs that provide habitat and food sources for beneficial organisms,
+>     such as pollinators, predatory and parasitic insects, spiders, insectivorous birds and bats, raptors,
+>     and terrestrial rodent predators. Select plant species that meet dietary, nesting,
+>     and cover requirements for the intended beneficial organisms during the critical
+>     period for control of target pests and, if possible, for the entire year. Protect
+>     beneficial organisms from harmful pesticides.
+106,118c103,110
+<   - Utilize plant materials that have been selected and tested in the NRCS Plant Materials Program or in similar tree and shrub improvement programs when specific performance elements
+<     are necessary. Plant materials used for planting treatments can include bare-root stock, containerized
+<     stock, seed, stem or root cuttings, or layered bows. Consider the potential impacts
+<     of extreme weather events (e.g., drought, flooding, wind, late spring frosts)
+<     when selecting plant species and sites for planting. Select trees and shrubs adapted
+<     to the site’s natural disturbance regime. If planting in existing forestland,
+<     select tree species based on the existing forest’s species traits, successional
+<     status, structure, and composition.
+<   - Use diverse tree and shrub species combinations which best meet the needs of target
+<     wildlife and pollinator species. Enhance wildlife habitat structure in existing
+<     forest stands by establishing additional trees and shrubs in the understory. Select
+<     tree and shrub species that produce hard or soft mast utilized by targeted wildlife
+<     species.
+---
+>   - Consider utilizing plant materials that have been selected and tested in the Plant Materials Program or in similar tree/shrub improvement programs.
+>   - Consider using diverse tree and shrub species combinations which best meet the
+>     needs of desired wildlife and pollinator species.
+>   - When selecting plant materials, consider whether the species, variety, or cultivar
+>     possesses aggressive traits, and whether it poses a potential threat to the existing
+>     or desired plant community.
+>   - Consider the potential impacts of extreme weather events (e.g., drought, flooding,
+>     wind) when selecting plant species and sites for planting.
+121,129c113,118
+<   - Design tree-shrub arrangement and spacing to allow for and anticipate the need
+<     for future access lanes for purposes of stand management and fire control. Establish
+<     species with growth rates and at densities that make them competitive with weeds
+<     and undesirable plants. Consider incorporating culturally significant species
+<     into establishment design.
+<   - Consider designing plantings to enhance visual quality in farmsteads, recreation
+<     areas, and along public rights-of-way, by incorporating foliage color, season
+<     and color of flowering, mature plant height, edge- feathering, and other landscaping
+<     techniques to meet client’s management objectives and concerns.
+---
+>   - Tree/shrub arrangement and spacing should allow for and anticipate the need for
+>     future access lanes for purposes of stand management and fire control.
+>   - Consider establishing species with growth rates and at densities that make them
+>     competitive with weeds and undesirable plants.
+>   - Consider using species that provide subsistence and cultural values, (e.g., as
+>     used by Tribes).
+131,137c120,122
+<   - Use NRCS CPS Mulching (Code 484) to support tree and shrub establishment by controlling
+<     competing vegetation with natural mulches, such as wood products or hay, as a viable alternative
+<     to using herbicides. Certified weed-free mulches are preferred.
+<   - Invasic plant species may be controlled through mulching with fully biodegradable
+<     materials; mowing; livestock grazing with protection for plantings; mechanical
+<     cultivation; pre-irrigation; flame, heat or electrical means. Use NRCS CPS Prescribed
+<     Burning (Code 338), as needed.
+---
+>   - Natural or fully biodegradable mulches such as wood chips, cardboard or hay, can
+>     be used to support tree/shrub establishment by controlling competing vegetation. Certified weed-free
+>     mulches are preferred. Use NRCS CPS Mulching (Code 484).
+141,149c126,127
+<   Reducing Energy Use:
+<   - When trees and shrubs are planted to reduce summer energy use in buildings, consider
+<     prioritizing their placement based on the greatest daily solar heat gain (typically the west side).
+<     Trees or shrubs planted within 30 to 50 feet of a building generally provide effective
+<     shade to windows and walls, depending on tree height potential. Evaluate tree
+<     and shrub crown and root spread characteristics before establishing near structures.
+<     Deciduous tree or shrub species planted adjacent to the south side of buildings
+<     in cool climates can provide shade in the summer yet allow sun to reach the building
+<     in winter.
+---
+>   - 'Invasive plant species may be controlled through: mulching; mowing; livestock
+>     grazing with protection for plantings; hand weeding and mechanical cultivation.'
+152,154c130,132
+<   to achieve its intended purpose and obtain any required permits.
+< - Use Implementation Requirements or other acceptable documentation. At a minimum,
+<   provide—
+---
+>   to achieve its intended purpose, and obtain any required permits.
+> - 'Use the Pacific Islands Area Vegetative Specification to record the implementation
+>   requirements. At a minimum, provide:'
+156,158c134,136
+< - '  • Drawings and details when appropriate.'
+< - '  • Map showing the location of tree and shrub establishment areas.'
+< - '  • Soils map and description of soils and ecological sites (if available).'
+---
+> - '  • Sketches, drawings, and detail drawings.'
+> - '  • Map showing the location of plantings and/or natural regeneration areas.'
+> - '  • Soils map, and description of soils and Ecological Sites (if available).'
+160,164c138,142
+< - '  • Number of trees and shrubs per acre to be established, by species.'
+< - '  • Timing of establishment treatments relative to seasonal factors, plant physiology,
+<   disease, insects, and wildlife impacts.'
+< - '  • Mitigation measures, if needed, to reduce damage from wildfire hazard or potential
+<   pests.'
+---
+> - '  • Number of trees/shrubs per acre to be planted, by species.'
+> - '  • Timing of planting and/or natural regeneration relative to considerations for
+>   seasonal factors, plant physiology, disease, insects, and wildlife impacts.'
+> - '  • Mitigation measures, if needed, to reduce wildfire hazard or the potential
+>   for disease and insect pests.'
+166,186c144,163
+< - 'Prepare an operation and maintenance plan for the site. As a minimum, include the
+<   following activities:'
+< - '  • Manage competing vegetation (including Federal or State invasive species and
+<   noxious weeds), as needed, until the desired trees and shrubs are established without
+<   competing for sunlight, water, or nutrients.'
+< - '  • Maintain the health of the established plant community with appropriate management
+<   techniques including periodic mowing, herbicide treatments, or prescribed burning,
+<   as needed. Do not conduct maintenance practices and activities during the primary
+<   reproductive period of wildlife. Exceptions can be considered to maintain the health
+<   of the vegetation if such exceptions do not conflict with agency requirements.'
+< - '  • Control access by vehicles and equipment during or after tree-shrub establishment
+<   to protect new plants and minimize erosion, compaction, and other site impacts.'
+< - '  • Inspect the site at appropriate time intervals following planting, seeding,
+<   or natural regeneration to determine whether the survival rate for trees and shrubs
+<   meets the intended practice purposes and client objectives. When survival is not
+<   adequate to meet the intended objective, replant or supplement the planting as needed
+<   to meet the management goals.'
+< - '  • Periodically inspect established trees and shrubs and protect them from adverse
+<   impacts of insects, diseases, competing vegetation, fire, livestock, wildlife, nonfunctioning
+<   tree shelters, weed barriers, etc.'
+< - '  • Apply nutrients to maintain vigor of desirable trees-shrubs, as needed.'
+---
+> - 'Prepare an operation and maintenance plan for this site. As a minimum, include
+>   the following activities:'
+> - '  • Do not conduct maintenance practices and activities during the primary reproductive
+>   period of wildlife. Exceptions can be considered to maintain the health of the vegetative
+>   community if such exceptions do not conflict with agency requirements.'
+> - '  • Mow the area periodically if practical and needed to maintain the health of
+>   the plant community.'
+> - '  • Control access by vehicles and/or equipment during or after tree/shrub establishment
+>   to protect new plants and minimize erosion, compaction and other site impacts.'
+> - '  • Inspect the site at an appropriate time following planting, seeding, and/or
+>   natural regeneration to determine whether the survival rate for tree and shrubs
+>   meets practice and client objectives. Replant or provide supplemental planting when
+>   survival is not adequate.'
+> - '  • Inspect the trees and shrubs periodically, and protect them from adverse impacts
+>   of insects, diseases, competing vegetation, fire, livestock, wildlife, non-functioning
+>   tree shelters and/or weed barriers, etc.'
+> - '  • If needed, control competing vegetation until the desired trees/shrubs are
+>   established. Control plant species on the Federal or State invasive species and
+>   noxious weed lists.'
+> - '  • If needed, apply nutrients to maintain vigor of desirable trees/shrubs.'
+189,199c166,179
+<   Columbus, OH.
+< - 'Burns, R.M. and B.H. Honkala, tech. coords. 1990. Silvics of North America: 1.
+<   Conifers; 2. Hardwoods. Agriculture Handbook 654. USDA Forest Service. Washington,
+<   D.C.'
+< - Landis, T.D., R.K. Dumroese, and D.L. Haase. 2010. The Container Tree Nursery Manual.
+<   Volume 7, Seedling Processing, Storage, and Outplanting. Agriculture Handbook 674.
+<   USDA Forest Service. Washington, D.C.
+< - 'Swanston, Christopher W., et al. 2016. Forest Adaptation Resources: Climate Change
+<   Tools and Approaches for Land Managers. General Technical Report NRS-GTR-87-2. USDA
+<   Forest Service. Newtown Square, PA.'
+< - Talbert, C. 2008. Achieving Establishment Success the First Time. Tree Planters
+---
+>   Available at http://americanhort.org/documents/ansi_nursery_stock_standards_americanhort_2014.pdf
+>   (verified 25 Jan 2016).
+> - Landis, T.D.; Dumroese, R.K.; Haase, D.L. 2010. The Container Tree Nursery Manual.
+>   Volume 7, Seedling Processing, Storage, and Outplanting. Available at http://www.fs.fed.us/rm/pubs_other/wo_AgricHandbook674_7.pdf
+>   (verified 25 Jan 2016). Agriculture Handbook 674. USDA-Forest Service. Washington,
+>   DC. 200 p.
+> - 'McPherson, E.G., J.R. Simpson, P.J. Perper, S.E. Maco, S.L. Gardner, S.K. Cozad,
+>   and Q. Xiao. 2006. Midwest community tree guide: benefits, costs, and strategic
+>   planting. Gen. Tech. Rept. PSW-GTR-199. USDA-Forest Service. 85 p. Available at
+>   http://www.fs.fed.us/psw/programs/uesd/uep/tree_guides.shtml (verified 25 Jan 2016).
+>   (Note: State FOTGs may substitute this citation with one specific to their region.)'
+> - Organic Materials Review Institute. OMRI Products List. Available at http://www.omri.org/omri-
+>   lists/download (verified 25 Jan 2016).
+> - Talbert, C. 2008. Achieving establishment success the first time. Tree Planters
+201,204c181,182
+< - USDA NRCS. n.d. “Woodlands and Forestlands.” Accessed December 8, 2021. http://www.nrcs.usda.gov/wps/portal/nrcs/detail/plantmaterials/technical/publications/?cid=stelprdb104405
+<   3
+< - 'USDA National Invasive Species Information Center. 1999. Executive Order #13112
+<   – Invasive Species. Accessed December 8, 2021. https://www.invasivespeciesinfo.gov/executive-order-13112'
+---
+> - USDA-NRCS. Woodlands and Forestlands. Available at http://www.nrcs.usda.gov/wps/portal/nrcs/detail/plantmaterials/technical/publications/?cid=stelprdb104405
+>   3 (verified 25 Jan 2016).
