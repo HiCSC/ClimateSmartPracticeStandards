@@ -289,30 +289,6 @@ onlyPIA.cd <- anti_join(PIA.df, NHCP.df)
 
 #Standard differences
 
-## CSP 315 Herbaceous Weed Treatement
-
-NHCP standards allow Prescribed Burning (Code 338) and Forage Harvest Management (Code 511), where as PI standards do not.
-
-```{sh}
-diff data_lvl01/315_Herbaceous_Weed_Treatment_NHCP_CPS_10_2020.yaml data_lvl01/315_Herbaceous_Weed_Treatment_PI_CPS_2022.yaml
-```
-
-## CSP 317 Composting Facility
-
-Significant deviations present. Needs to be hand coded.
-
-```{sh eval=FALSE}
-diff data_lvl01/317_Composting_Facility_NHCP_CPS_2020.yaml data_lvl01/317_Composting_Facility_PI_CPS_2017.yaml
-```
-
-## CSP 329 Residue and tillage management no till
-
-TODO need to reprocess text
-
-```{sh}
-diff data_lvl01/329_Residue_And_Tillage_Management_No_Till_NHCP_CPS_0.yaml data_lvl01/329_Residue_and_Tillage_Management_No_Till_PI_CPS_2017.yaml
-```
-
 ## CSP 380 Windbreak
 
 ```{sh}
