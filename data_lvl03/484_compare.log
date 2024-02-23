@@ -1,0 +1,26 @@
+3,4c3,4
+< unit: (ac)
+< version: PI - October 2022
+---
+> unit: (Ac)
+> version: NHCP - October 2017
+7c7
+< - 'Apply this practice to achieve the following purpose(s):'
+---
+> - 'This practice is applied to achieve the following purpose(s):'
+13c13
+< - '  • Reduce sheet, rill, and wind erosion'
+---
+> - '  • Reduce sheet, rill, & wind erosion'
+31c31
+<   - When mulching with cereal grain straw or grass hay, apply at a rate to achieve a minimum 70% ground cover.
+---
+>   - When mulching with cereal grain straw or grass hay, apply at a rate to achieve a minimum 70-percent ground cover.
+56c56
+< - Low permeability mulches (e.g., plastic) may increase concentrated flow and erosion on the unmulched areas.
+---
+> - Low permeability mulches (e.g., plastic) may increase concentrated flow and erosion on the nonmulched areas.
+61c61
+<   If needed, apply additional weed control around the plant base area.
+---
+>   Additional weed control may be needed around the plant base area.

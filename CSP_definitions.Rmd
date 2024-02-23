@@ -23,7 +23,7 @@ pdfFiles <- list.files(path = 'USDA_CSP_pdf', full.names = TRUE, recursive = TRU
 
 ```{r}
 
-for(sourcePDF in pdfFiles[str_detect(basename(pdfFiles), '327')]){
+for(sourcePDF in pdfFiles[str_detect(basename(pdfFiles), '484')]){
   if(sourcePDF == 'USDA_CSP_pdf/327_Conservation_Cover_NHCP_CPS_2014.pdf'){
     #two column standard needs to be manually copied
     next()
@@ -137,8 +137,8 @@ for(sourcePDF in pdfFiles[str_detect(basename(pdfFiles), '327')]){
                       practice_code = code,
                       unit = unitAbv,
                       version = version), elements)
-  write_file(as.yaml(elements2), file = #file.path(directYAML, 'test.yaml')
-               file.path(directYAML, paste0(str_remove(basename(sourcePDF), 'pdf'), 'yaml'))
+  write_file(as.yaml(elements2), file = #file.path(directYAML, 'test.yml')
+               file.path(directYAML, paste0(str_remove(basename(sourcePDF), 'pdf'), 'yml'))
   )
 }
 ```
