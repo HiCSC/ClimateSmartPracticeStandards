@@ -22,11 +22,12 @@ pdfFiles <- list.files(path = 'USDA_CSP_pdf', full.names = TRUE, recursive = TRU
 ## Line by line parser
 
 ```{r}
-#high priority 
-#Windbreak (380) #17 and #18
-#Forest Farming (379) #15 #16
 
-for(sourcePDF in pdfFiles){
+for(sourcePDF in pdfFiles[str_detect(basename(pdfFiles), '327')]){
+  if(sourcePDF == 'USDA_CSP_pdf/327_Conservation_Cover_NHCP_CPS_2014.pdf'){
+    #two column standard needs to be manually copied
+    next()
+  }
   org_temp <- pdf_text(pdf = sourcePDF)
   
   #####Clean up text ########

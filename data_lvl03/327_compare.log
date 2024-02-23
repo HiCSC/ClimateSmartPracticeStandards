@@ -1,0 +1,10 @@
+3,4c3,4
+< unit: (ac)
+< version: PI - January 2016
+---
+> unit: (Ac.)
+> version: NHCP - September 2014
+61c61
+< - Specifications and operation and maintenance shall be recorded using the PI Vegetative Guide and Planting Practices Jobsheet.
+---
+> - Specifications and operation and maintenance shall be recorded using approved Implementation Requirement document.

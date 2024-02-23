@@ -9,6 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# 327
+
+```{sh}
+diff data_lvl02/327_Conservation_Cover_PI_CPS_2016.yaml data_lvl02/327_Conservation_Cover_NHCP_CPS_2014.yml > data_lvl03/327_compare.log
+```
 
 ## CSP 380 Windbreak
 
