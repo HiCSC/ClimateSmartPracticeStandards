@@ -9,6 +9,12 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# 612
+
+```{sh}
+diff data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yml data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yml > data_lvl03/612_compare.log
+```
+
 # 336
 
 ```{sh}
