@@ -1,0 +1,287 @@
+practice_name: SOIL CARBON AMENDMENT
+practice_code: '336'
+unit: (ac)
+version: NHCP - November 2022
+definition: Application of carbon-based amendments derived from plant materials or
+  treated animal byproducts.
+purpose:
+- 'Use this practice to accomplish one or more of the following purposes:'
+- '           • Improve or maintain soil organic matter.'
+- '           • Sequester carbon and enhance soil carbon (C) stocks.'
+- '           • Improve soil aggregate stability.'
+- '           • Improve habitat for soil organisms.'
+conditions: This practice applies to areas of Crop, Pasture, Range, Forest, Associated
+  Agriculture Lands, Developed Land, and Farmstead where organic carbon amendment
+  applications will improve soil conditions.
+criteia:
+  Applicable to All Purposes:
+  - Plan, design, and implement carbon amendment applications in compliance with all
+    Federal, State, and
+  - local laws and regulations. The owner or operator is responsible for securing
+    all required permits or approvals and for applying in amendment in accordance
+    with such laws and regulations.
+  - Evaluate site using appropriate planning criteria, assessment tools, or evaluation
+    activities for the intended land use to determine where soil carbon amendments
+    will achieve the intended purpose(s).
+  - Test the soil prior to amendment application. Use laboratories meeting current
+    requirements and performance standards of the North American Proficiency Testing
+    Program under the auspices of the Soil Science Society of America or use an alternative
+    State-approved certification program that considers laboratory performance and
+    proficiency to ensure accuracy of soil test results.
+  - Follow Land Grant University (LGU) or industry guidance to collect, prepare, store
+    and ship soil samples. Ensure sampling protocol and laboratory soil test methods
+    are the same as those required by the State- adapted NRCS Conservation Practice
+    Standard (CPS) Nutrient Management (Code 590).
+  - - 'At a minimum, measure the following soil properties:'
+    - '           • Soil pH.'
+    - '           • Soil texture.'
+    - '           • Soil organic matter or soil organic carbon.'
+    - '  • Extractable phosphorus, potassium, calcium, sulfur, and magnesium.'
+    - '  • Cation exchange capacity.'
+  - - 'Test for any of the following properties when applicable to local conditions
+      or conservation objectives:'
+    - '  • Aluminum, sodium, and soluble salts (electrical conductivity).'
+    - '  • Bulk density.'
+    - '  • Aggregate stability.'
+    - '  • Available water capacity.'
+    - '  • Iron, manganese, copper, zinc.'
+  for All Amendments:
+  - Prior to application, document the physical and chemical analysis (i.e., composition
+    and properties) of
+  - amendment per amendment category near the time of application. Current amendment
+    analysis documentation shall be provided by the party who produces the amendment.
+  - Apply carbon amendments with minimal disturbance at a rate and time that will
+    achieve the intended purpose.
+  - Evaluate the landscape, soil properties, amendment composition, plant nutrient
+    needs, and application rate to determine if NRCS CPS Nutrient Management (Code
+    590) is needed to address nutrient-related resource concerns.
+  - Do not apply high-salt materials (>8 mmhos/cm) where salinity is a concern.
+  - - 'Do not apply amendments:'
+    - '  • Produced from crop residues that could otherwise provide soil protection
+      and improve soil health (e.g., stover or straw) or from woody residue that is
+      necessary to sustain forest health and support wildlife habitat as referenced
+      in NRCS CPS Forest Stand Improvement (Code 666).'
+    - '  • During high wind events.'
+    - '  • Where soil, site, climate, or condition pose a significant risk of loss
+      due to slope, runoff potential, rainfall or irrigation intensity, or other factors.'
+    - '  • To areas where negative impacts on air or water resources or nutrient cycling
+      may occur.'
+    - '  • That may contain undesirable plant propagules or seeds.'
+    - '  • Where changes to the plant community could be undesirable or unknown (e.g.,
+      changing a native or an established desired community etc.).'
+    - '  • When nutrients in the amendment will not be directly used (e.g., nutrient-rich
+      amendment applications to fallow land or fields without existing or planned
+      vegetative cover).'
+    - '  • Such as raw manure or biosolids. When applying soil amendments such as
+      raw manure and biosolids refer to NRCS Conservation Practice Standard Nutrient
+      Management (Code 590).'
+  - For operations certified under USDA’s National Organic Program (NOP), apply and
+    manage amendments according to program regulations, including but not limited
+    to compost temperature and carbon to nitrogen ratio (C:N) requirements under 7
+    CFR §205.203. Operators should consult their certifying agent to ensure compliance
+    with NOP standards (or other certification programs or marketing agreements) prior
+    to application.
+  - Evaluate the cumulative impacts of critical amendment components such as nutrients,
+    nutrient interactions, toxicants, or contaminants when planning repeat applications.
+    Include a monitoring plan as appropriate based on risk.
+  - ''
+  - ''
+  - When feedstocks have higher risk of synthetic organic or heavy metal contaminants,
+    evaluate amendment as appropriate for contaminant and amendment type (e.g., processed
+    municipal waste feedstocks that may contain pesticide residues, polycyclic aromatic
+    hydrocarbons (PAHs), polychlorinated biphenyl’s (PCBs), and polyfluoroalkyl substances
+    (PFAS), etc.).
+  - Report values for all parameters listed in table 1. Identify any parameter that
+    may limit the application of amendments. Do not apply amendments if the maximum
+    allowable levels listed are exceeded.
+  - ''
+  - Table 1. Parameters for All Carbon Amendments
+  - Parameter Range Unit Feedstock Report1 Type by % pH Report pH units Electrical
+    Conductivity (EC) Report dS/m Moisture Report % Organic Matter/Carbon Report %
+    DW2 Total Nitrogen Report % DW Particle Size Report % per size class Phosphorus
+    Report mg/kg4 DW Potassium Report mg/kg DW Calcium Report mg/kg DW Magnesium Report
+    mg/kg DW Arsenic3 <41 mg/kg DW Cadmium <39 mg/kg DW Copper <1500 mg/kg DW Lead
+    <300 mg/kg DW Mercury <17 mg/kg DW Nickel <420 mg/kg DW Selenium <100 mg/kg DW
+    Zinc <2800 mg/kg DW 1 Report results, also see criteria under amendment type.
+    2 DW = Dry weight. 3 Pollutant concentration limit values from US EPA Title 40
+    Part 503 STANDARDS FOR THE USE OR DISPOSAL OF SEWAGE SLUDGE. Follow State and
+    local laws and regulations. 4 milligrams per kilogram (mg/kg) = parts per million
+    (ppm) = grams per ton (g t-1)
+  - Compost Use compost that is produced by the controlled aerobic, biological decomposition
+    of biodegradable feedstocks. Use compost with the US Composting Council’s Seal
+    of Testing Assurance Program (STA) or that meets the following criteria in Table
+    2 below as determined by the Test Methods for the Examination of Composting and
+    Compost (TMECC) or by LGU recognized methods.
+  - - 'Document:'
+    - '     • Origin of compost.'
+    - '     • Parameters for All Carbon Amendments in table 1.'
+    - ''
+    - '     • Parameters for Compost Amendments in table 2.'
+  - Table 2. Parameters for Compost Amendments
+  - Parameter Range Unit C:N Report1 unitless Organic matter Report % DW Fecal coliform
+    <1000 MPN2 per g dry compost Salmonella spp. <3 MPN per 4 g dry compost 1 Report
+    = Required results only, no threshold or range needs to be met. 2 MPN = Most Probable
+    Number.
+  - Use laboratories successfully meeting the current requirements and performance
+    standards of the STA or use an alternative State-approved certification program
+    that considers laboratory performance and proficiency to ensure accuracy of laboratory
+    analyses.
+  - Ensure compost is screened as necessary to remove contaminants such as glass,
+    metal fragments, film plastic, hard plastic, and sharps.
+  - Do not apply compost when a phosphorus risk assessment indicates a high or very
+    high risk for phosphorus transport. Consider manufactured compost products that
+    are low in soluble phosphorous.
+  - Ensure mitigating conservation practices to prevent runoff are in place at the
+    time of application if compost is spread on slopes greater than 8% and within
+    100 feet of a surface water body. Do not apply soil carbon amendments on slopes
+    greater than 15%.
+  - Do not apply soil carbon amendments to rangelands except where it is facilitating
+    CPS Range Planting (Code 550) or CPS Critical Area Planting (Code 342).
+  - Biochar Use biochar that is produced by heating biomass to a temperature in excess
+    of 350 °C under conditions of controlled and limited oxygen concentrations to
+    prevent combustion (i.e., pyrolysis or gasification). Use biochar with the International
+    Biochar Initiative (IBI) Certified biochar seal or that meets the criteria in
+    table 3 as determined by the methods in IBI Standards (version 2.1), or by LGU
+    recognized methods.
+  - - 'Document:'
+    - '     • Origin of biochar and production method (e.g., verification of temperature
+      and limited oxygen conditions).'
+    - '     • Parameters for All Carbon Amendments in table 1.'
+    - '     • Parameters for Biochar Amendments in table 3.'
+  - ''
+  - Table 3. Parameters for Biochar Amendments
+  - Parameter Range Unit Total Ash Report1 % of total mass, dry basis Liming equivalent
+    Report % CaCO3 Organic Carbon (Corg) >10 % DW H:Corg <0.7 Molar ratio Chromium
+    <1200 mg per kg DW
+  - ''
+  - 1 Report = Required results only, no threshold or range needs to be met
+  - ''
+  - Use laboratories successfully meeting the current requirements and performance
+    standards of the IBI Seal or use an alternative State-approved certification program
+    that considers laboratory performance and proficiency to ensure accuracy of laboratory
+    analyses.
+  - Apply biochar under weather conditions using application methods that reduce risk
+    of off-site movement and follow worker safety precautions, including use of appropriate
+    Personal Protective Equipment (PPE).
+  - Other carbon amendments Use regionally-appropriate carbon-based materials to fulfill
+    the purpose(s). Other carbon amendments may include but are not limited to waste
+    plant materials that would otherwise not provide a conservation benefit (e.g.,
+    harvested invasive aquatic species), wood chips, pulverized paper, bagasse, or
+    distillation residue.
+  - Follow State specific criteria for regionally appropriate carbon-based materials.
+considerations:
+- General Considerations Add mature, stable compost (i.e., based on maturity index,
+  respirometry, or documented time and temperature of composting process) that will
+  increase soil biological activity and diversity to enhance root health and promote
+  resistance to pathogenic organisms.
+- Apply low H:Corg biochar (<0.7) to maximize soil carbon sequestration.
+- Inoculate biochar with compost, compost tea, or manure to balance nutrients and
+  nutrient interactions, stabilize pH, and improve amendment moisture content to aid
+  application. Determine if NRCS CPS Nutrient Management (Code 590) is needed to address
+  nutrient-related resource concerns.
+- Adjust nutrient management and pest management plans as needed for the specific
+  amendment type and purpose.
+- '     • Compost or other amendments with C:N greater than 30:1 can immobilize nutrients,
+  especially nitrogen, and may necessitate supplemental nitrogen applications for
+  plant growth.'
+- '     • The targeted C:N ratio for compost or other amendments is 20:1. C:N ratios
+  below 15:1 are likely to mineralize N and should be used at a time when plant N
+  demand will prevent N loss.'
+- '     • Biochar with high adsorptive capacity can reduce the effectiveness of some
+  pesticides.'
+- Time operations to minimize potential soil compaction and evaluate traffic routes
+  to prevent erosion. Consider coordinating amendment applications with other operations
+  to minimize traffic (e.g., seed and apply compost at the same time). Disturbed areas
+  should be appropriately treated to minimize potential erosion.
+- Consider potential contamination pathways to crops typically consumed raw, water
+  distribution systems, etc. when applying amendments that may contain pathogens (e.g.,
+  biological soil amendments of animal origin including composted manure, composted
+  carcasses; reference the Food and Drug Administration’s Food Safety Modernization
+  Act at www.fda.gov/FSMA).
+- Reduce risk of off-site movement or spontaneous ignition by properly storing and
+  handling amendments. When staging materials for application, locate piles where
+  they will not increase risk of material or leachate loss to sensitive areas.
+- ''
+- ''
+- Considerations to Maintain or Improve Soil Organic Matter and Sequester Carbon When
+  applying soil carbon amendment with diesel-powered equipment and vehicles, consider
+  using Tier 3 or Tier 4 emissions certified diesel engines to minimize nitrous oxides
+  and particulate matter emissions from diesel exhaust and to maximize climate benefits.
+- Consider life cycle analysis of the amendment that evaluates the feedstock source,
+  processing and transportation impacts on carbon and greenhouse gas accounting.
+- Consider using COMET-Farm or COMET-Planner to estimate changes in carbon and greenhouse
+  gas emissions of planned practices.
+- 'On cropland, soil organic carbon is related to the volume of soil disturbed, intensity
+  of the disturbance, soil moisture content, and soil temperature at the time the
+  disturbance occurs. Make this practice most effective at increasing soil organic
+  carbon stocks, improving soil health and reducing carbon loss:'
+- '  • Perform any deep soil disturbance, such as ripping, subsoiling, or fertilizer
+  injection, so the vertical slot created by the implements is closed at the surface.'
+- '  • Perform soil disturbance at a time when exposed soil carbon is less likely
+  to be oxidized and lost as CO2 (e.g., when soil temperatures are below 50º F or
+  when soil is not excessively wet or excessively dry).'
+plans_specifications:
+- 'In the soil carbon amendment plan, include:'
+- '  • Purpose of practice.'
+- '  • Assessment of soil health resource concerns using State-approved tools for
+  the appropriate land use.'
+- '  • Results of laboratory soil health tests that include, at a minimum soil organic
+  matter or soil organic carbon and include other soil health properties based on
+  the purpose(s) and resource concern(s) to be addressed.'
+- '  • Map and site description of conservation management units receiving amendments
+  (e.g., crop rotation, native vegetation, etc.).'
+- '  • Aerial photos that include locations of sensitive areas and setbacks, as applicable.'
+- '  • Soil survey map of the site.'
+- '  • Soil information including but not limited to soil type, surface texture, slope,
+  runoff class, drainage class, flooding and ponding frequency and duration, or soil
+  interpretations designed for general land use planning which provide dynamic soil
+  property information and/or soil health response to carbon amendments (i.e., Dynamic
+  Soil Properties Response to Biochar found in Web Soil Survey under Suitabilities
+  and Limitations tab).'
+- '  • Plant information including but not limited to existing, invasive, noxious,
+  rare, or wetland plant species as noted in the PLANTS database, as applicable.'
+- '  • Complete amendment analysis (See General Criteria for each amendment type).'
+- '  • Application rate, method, timing, and when applicable, method of incorporation.'
+- '  • Monitoring plan for amendment effectiveness for the planned purpose(s) using
+  appropriate monitoring activities. Include a soil organic matter or soil organic
+  carbon test to determine the effectiveness of the application for improving soil
+  health and soil organic carbon 1 to 3 years after application. Soil testing at least
+  3 years or more after application may monitor longer-term impacts.'
+operations_maintanance:
+- Calibrate application equipment to ensure accurate distribution of material at planned
+  rates.
+- ''
+- ''
+- Inspect and evaluate surface applied amendments after the first heavy precipitation
+  event to ensure the material is stable and does not impact non-target areas.
+- Evaluate the effectiveness of the amendment (application, amount of cover provided,
+  durability, etc.) and adjust future management or type of amendment to better meet
+  the intended purpose(s).
+references:
+- Association of American Plant Food Control Officials. 2019. AAPFCO Product Label
+  Guide. http://www.aapfco.org/pdf/product_label_guide.pdf
+- European Biochar Certifications 2022. Guidelines of the European Biochar Certificate
+  version 10.1E 2022. https://www.european-biochar.org/media/doc/2/version_en_10_1.pdf
+- 'Gelardi, D.L. and S.J. Parikh. 2021. Soils and beyond: Optimizing sustainability
+  opportunities for biochar. Sustainability 13, 10079.'
+- International Biochar Initiative. nd. IBI Biochar Standards version 2.1. https://biochar-
+  international.org/characterizationstandard/
+- 'Joseph, S., A.L. Cowie, L. VanZwieten, N. Bolan, A. Budai, W. Buss, M.L. Cayuela,
+  E.R. Graber, J.A. Ippolito, Y. Kuzyakov, Y. Luo, Y.S. Ok, K.N. Palasooriya, J. Shepherd,
+  S. Stephens, Z. Weng, and J. Lehmann. 2021. How Biochar Works, and When It Doesn’t:
+  A Review of Mechanisms Controlling Soil and Plant Responses to Biochar. Global Change
+  Biology-Bioenergy 13:1731-1764. https://dio.org/10.1111/gcbb.12885'
+- U.S. Composting Council. n.d. “STA Certified Compost Testing Limits.” https://www.compostingcouncil.org/page/TestResultLimits
+- US EPA Pollutant Limits https://www.ecfr.gov/current/title-40/chapter-I/subchapter-O/part-503/subpart-
+  B/section-503.13.
+- USDA NRCS. 2007. Nutrient Management Technical Note 7 (Title 190). Reducing the
+  Risk of E. coli 0157:H7. Washington, D.C. https://directives.sc.egov.usda.gov/
+- USDA NRCS. 2010. National Engineering Handbook (Title 210), Part 637, Chapter 2,
+  Composting. Washington, D.C. https://directives.sc.egov.usda.gov/
+- USDA, NRCS 2011. National Agronomy Manual. 190-V. 4th Ed. https://go.usa.gov/xVdWq
+- USDA, NRCS 2022. National Range and Pasture Handbook (Title 190), Part 645, Subpart
+  G, Rangeland Ecohydrology. Washington, D.C. https://directives.sc.egov.usda.gov/
+- USDA, NRCS 2022. The PLANTS Database National Plant Data Team, Greensboro, NC USA.
+  https://plants.usda.gov/home
+- USDA National Organic Program Regulations (7 CFR Part 205). http://www.ecfr.gov/cgi-bin/text-
+  idx?c=ecfr&sid=3f34f4c22f9aa8e6d9864cc2683cea02&tpl=/ecfrbrowse/ Title07/7cfr205_main_02.tpl.
