@@ -2,119 +2,63 @@
 < version: NHCP - July 2021
 ---
 > version: PI - January 2022
-13,15d12
+10,11d9
 < - '           • Manage snow distribution to improve moisture utilization by plants'
-< - '           • Manage snow distribution to reduce obstacles, ponding, and flooding
-<   that impacts other resources, animals, structures, and humans'
-18c15
-< - '           • Provide shelter from wind, snow, and excessive heat, to protect animals,
+< - '           • Manage snow distribution to reduce obstacles, ponding, and flooding that impacts other resources, animals, structures, and humans'
+13c11
+< - '           • Provide shelter from wind, snow, and excessive heat, to protect animals, structures, and humans'
 ---
-> - '           • Provide shelter from wind and excessive heat, to protect animals,
-41,53c38,53
-<     visibility along travel routes, snow deposition, or concerns for visual quality. Windbreak
-<     length must be adequate to protect the site and allow for “end effect” (turbulence
-<     effects at the end of a windbreak) and minor changes in predominant wind direction.
-<   - Select tree and/or shrub species that are adapted to soils, climate, and other
-<     site conditions. Do not use species that are on Federal or State invasive species
-<     or noxious weed lists. Space individual plants based on the growing area needed
-<     by each species, with accommodation for maintenance equipment and for the desired
-<     configuration of the stems, branches, and canopy to achieve windbreak purposes.
-<     Do not plant trees or shrubs where they will interfere with above or belowground
-<     structures, utilities, irrigation or moisture management systems, or desired drains.
-<     Permit the periodic removal of some products, such as high value trees, medicinal
-<     herbs, nuts, fruits, etc., provided the loss of vegetation or harvesting disturbance
-<     does not compromise the conservation purpose.
+> - '           • Provide shelter from wind and excessive heat, to protect animals, structures, and humans'
+27c25
+<     Use species and setback distances that allow for the expected mature windbreak size to mitigate potential negative impacts of shading, visibility along travel routes, snow deposition, or concerns for visual quality.
 ---
->     visibility along travel routes, or concerns for visual quality. Windbreak length
->     must be adequate to protect the site and allow for “end effect” (turbulence effects
->     at the end of a windbreak) and minor changes in predominant wind direction.
->   - Select only tree and/or shrub species identifed in the NRCS Pacific Islands Area
->     (PIA) Vegetative Specification for this practice standard (CPS 380) or those approved
->     by variance request to the PIA Ecological Sciences Division. Ensure selected species
->     are adapted to soils, climate, and other site conditions. Do not use species that
->     are on Federal or State invasive species or noxious weed lists. Space individual
->     plants based on the growing area needed by each species, with accommodation for
->     maintenance equipment and for the desired configuration of the stems, branches,
->     and canopy to achieve windbreak purposes. Do not plant trees or shrubs where they
->     will interfere with above or belowground structures, utilities, irrigation or
->     moisture management systems, or desired drains. Permit the periodic removal of
->     some products, such as high value trees, medicinal herbs, nuts, fruits, etc.,
->     provided the loss of vegetation or harvesting disturbance does not compromise
->     the conservation purpose.
-70,84d69
+>     Use species and setback distances that allow for the expected mature windbreak size to mitigate potential negative impacts of shading, visibility along travel routes, or concerns for visual quality.
+29c27,28
+<   - Select tree and/or shrub species that are adapted to soils, climate, and other site conditions.
+---
+>   - Select only tree and/or shrub species identifed in the NRCS Pacific Islands Area (PIA) Vegetative Specification for this practice standard (CPS 380) or those approved by variance request to the PIA Ecological Sciences Division.
+>     Ensure selected species are adapted to soils, climate, and other site conditions.
+31c30,31
+<     Space individual plants based on the growing area needed by each species, with accommodation for maintenance equipment and for the desired configuration of the stems, branches, and canopy to achieve windbreak purposes.
+---
+>     Space individual plants based on the growing area needed by each species, with accommodation for
+>     maintenance equipment and for the desired configuration of the stems, branches, and canopy to achieve windbreak purposes.
+46,54d45
 <   to Manage Snow Deposition:
-<   - Orient the windbreak as close to perpendicular to the predominant snow-bearing
-<     wind as practical. Locate windbreaks so that snow deposition will not pose a health or safety problem, management
-<     constraint, or obstruct human, animal, or vehicular traffic. Windbreak density
-<     during expected snow-producing months must be at least 50 percent.
-<   - Where it is desirable for wind to blow snow off road surfaces and limit ice formation,
-<     design windbreaks using greater setback distances and allow for maximum mature
-<     windbreak height as well as 20-year height.
-<   - Where soil erosion and/or runoff from melting snow can be a hazard, control it
-<     by adjusting the siting of new windbreaks prior to establishment or by using appropriate
-<     supporting practices.
+<   - Orient the windbreak as close to perpendicular to the predominant snow-bearing wind as practical.
+<     Locate windbreaks so that snow deposition will not pose a health or safety problem, management constraint, or obstruct human, animal, or vehicular traffic.
+<     Windbreak density during expected snow-producing months must be at least 50 percent.
+<   - Where it is desirable for wind to blow snow off road surfaces and limit ice formation, design windbreaks using greater setback distances and allow for maximum mature windbreak height as well as 20-year height.
+<   - Where soil erosion and/or runoff from melting snow can be a hazard, control it by adjusting the siting of new windbreaks prior to establishment or by using appropriate supporting practices.
 <   for Managing Snow Distribution:
-<   - For managing snow distribution across a field, windbreak density during expected
-<     snow-producing months should be 25 to 50 percent. The interval between windbreaks should not exceed
-<     20H.
-86c71
-<   - Use windbreaks as needed to provide shade and reduce wind or snow impacts to animals,
+<   - For managing snow distribution across a field, windbreak density during expected snow-producing months should be 25 to 50 percent.
+<     The interval between windbreaks should not exceed 20H.
+56c47
+<   - Use windbreaks as needed to provide shade and reduce wind or snow impacts to animals, structures, and humans, or to reduce energy use.
 ---
->   - Use windbreaks as needed to provide shade and reduce wind impacts to animals,
-93,96c78,79
-<   - Prevent snowmelt drainage from a windbreak from flowing across an area of animal
-<     confinement. Prevent drainage of animal waste into a windbreak.
-<   to Improve Air Quality by Reducing and Intercepting Airborne Particulate Matter,:
-<   - Chemicals, and Odors
+>   - Use windbreaks as needed to provide shade and reduce wind impacts to animals, structures, and humans, or to reduce energy use.
+60,61c51
+<   - Prevent snowmelt drainage from a windbreak from flowing across an area of animal confinement.
+<     Prevent drainage of animal waste into a windbreak.
 ---
 >   - Prevent drainage of animal waste into a windbreak.
->   to Improve Air Quality by Reducing and Intercepting Airborne Particulate Matter, Chemicals, and Odors:
-112,113c95,96
-<     certified organic production areas and nonorganic production areas on the same
-<     farm or neighboring farms that utilize National Organic Program prohibited substances.
+96c86
+<     When woody residue or other debris requires onsite burning, use NRCS CPS Prescribed Burning (Code 338).
 ---
->     certified organic production areas and nonorganic production areas on the same farm or neighboring farms that utilize
->     National Organic Program prohibited substances.
-146,149c129,132
-<     Use NRCS CPS Tree/Shrub Pruning (Code 660) for branch or root pruning. Remove entire or partial rows of trees
-<     and/or shrubs to release trees in adjacent rows. Cut trees and/or shrubs that
-<     regrow from their base (i.e., coppicing) close to the ground when vigorous regrowth
-<     is desired.
----
->     Use NRCS CPS Tree/Shrub Pruning (Code 660) for branch or root pruning. Remove
->     entire or partial rows of trees and/or shrubs to release trees in adjacent rows.
->     Cut trees and/or shrubs that regrow from their base (i.e., coppicing) close to
->     the ground when vigorous regrowth is desired.
-156,157c139,140
-<     When woody residue or other debris requires onsite burning, use NRCS CPS Prescribed
-<     Burning (Code 338).
----
->     Burning woody residue or other debris is not an authorized management treatment
->     under NRCS technical or financial assistance in the Pacific Islands Area.
-180,182c163
-<   - Use deciduous trees on south and west sides of structures to reduce summer energy
-<     use. Use conifer windbreaks to reduce impacts of prevailing winter winds and reduce
-<     energy use.
+>     Burning woody residue or other debris is not an authorized management treatment under NRCS technical or financial assistance in the Pacific Islands Area.
+111,112c101
+<   - Use deciduous trees on south and west sides of structures to reduce summer energy use.
+<     Use conifer windbreaks to reduce impacts of prevailing winter winds and reduce energy use.
 ---
 >   - Locate trees on south and west sides of structures to reduce summer energy use.
-194,205d174
+120,125d108
 <   Managing Snow:
-<   - Consider additional actions for situations where a windbreak alone does not provide
-<     enough snow storage. Add windbreak rows or obtain supplementary storage with temporary or
-<     herbaceous wind barriers, constructed or living snow fences, or by retaining standing
-<     crop residues within the fetch (storage) area. Retain standing crop residues to
-<     enhance the effectiveness of windbreaks in uniformly distributing snow across
-<     a field.
-<   - To control end drifts, extend the length of the windbreak beyond the protected
-<     area, add supplemental windbreak legs, use greater setback distances, and/or use
-<     temporary or herbaceous wind barriers.
-<   - Secondary windbreaks made up of shorter tree species can be used to address snow
-<     control when winds come from directions different than the prevailing wind.
-243,245c212,214
-< - Prepare specifications for windbreak establishment in accordance with this standard
-<   for each site and purpose in the implementation requirements document. At a minimum,
-<   include—
+<   - Consider additional actions for situations where a windbreak alone does not provide enough snow storage.
+<     Add windbreak rows or obtain supplementary storage with temporary or herbaceous wind barriers, constructed or living snow fences, or by retaining standing crop residues within the fetch (storage) area.
+<     Retain standing crop residues to enhance the effectiveness of windbreaks in uniformly distributing snow across a field.
+<   - To control end drifts, extend the length of the windbreak beyond the protected area, add supplemental windbreak legs, use greater setback distances, and/or use temporary or herbaceous wind barriers.
+<   - Secondary windbreaks made up of shorter tree species can be used to address snow control when winds come from directions different than the prevailing wind.
+150c133
+< - - Prepare specifications for windbreak establishment in accordance with this standard for each site and purpose in the implementation requirements document.
 ---
-> - Prepare specifications for windbreak establishment and/or restoration in accordance
->   with this standard for each site and purpose in the implementation requirements
->   document. At a minimum, include—
+> - - Prepare specifications for windbreak establishment and/or restoration in accordance with this standard for each site and purpose in the implementation requirements document.

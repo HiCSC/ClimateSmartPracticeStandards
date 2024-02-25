@@ -23,7 +23,7 @@ pdfFiles <- list.files(path = 'USDA_CSP_pdf', full.names = TRUE, recursive = TRU
 
 ```{r}
 
-for(sourcePDF in pdfFiles[str_detect(basename(pdfFiles), '612')]){
+for(sourcePDF in pdfFiles[str_detect(basename(pdfFiles), '380')]){
   if(sourcePDF == 'USDA_CSP_pdf/327_Conservation_Cover_NHCP_CPS_2014.pdf'){
     #two column standard needs to be manually copied
     next()
