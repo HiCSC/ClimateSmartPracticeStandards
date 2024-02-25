@@ -9,8 +9,50 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# (380) WINDBREAK-SHELTERBELT ESTABLISHMENT AND RENOVATION
+# SOIL CARBON AMENDMENT (336)
 
+## Difference
+
+Overall there are there are no differences between standards asside from date of creation.
+
+
+```{sh eval=FALSE}
+diff data_lvl02/336_Soil_Carbon_Amendment_PI_CPS.yml data_lvl02/336_Soil_Carbon_Amendment_NHCP_CPS_2022.yml > data_lvl03/336_compare.log
+```
+
+```{r}
+cat(paste0(read_lines('data_lvl03/336_compare.log'), collapse = '\n'))
+```
+
+# MULCHING (484)
+
+Overall there are there are no significant differences between standards, however there are 5 identified grammatical differences.
+
+```{sh eval=FALSE}
+diff data_lvl02/484_Mulching_PI_CPS_2022.yml data_lvl02/484_Mulching_NHCP_CPS_2017.yml > data_lvl03/484_compare.log
+```
+
+```{r}
+cat(paste0(read_lines('data_lvl03/484_compare.log'), collapse = '\n'))
+```
+
+# CONSERVATION COVER (327)
+
+## Differences
+
+Overall there are there are no significant differences between standards with the exception of documentation for plans and specifications.
+
+```{sh eval=FALSE}
+diff data_lvl02/327_Conservation_Cover_PI_CPS_2016.yaml data_lvl02/327_Conservation_Cover_NHCP_CPS_2014.yml > data_lvl03/327_compare.log
+```
+
+```{r}
+cat(paste0(read_lines('data_lvl03/327_compare.log'), collapse = '\n'))
+```
+
+# TODO: WINDBREAK-SHELTERBELT ESTABLISHMENT AND RENOVATION (380)
+
+## Differences
 
 Overall references to snow are removed from Pacific Island specifications, burning is not allowed in Pacific Islands, species are specifications are difference, and restoration is explicitly named in Pacific islands.
 
@@ -23,44 +65,13 @@ diff data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yml data_l
 #read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yml')
 ```
 
-# 612
+# TODO: 612
 
 ```{sh eval=FALSE}
 diff data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yml data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yml > data_lvl03/612_compare.log
 ```
 
-# 336
-
-```{sh eval=FALSE}
-diff data_lvl02/336_Soil_Carbon_Amendment_PI_CPS.yml data_lvl02/336_Soil_Carbon_Amendment_NHCP_CPS_2022.yml > data_lvl03/336_compare.log
-```
-
-# 484
-
-```{sh eval=FALSE}
-diff data_lvl02/484_Mulching_PI_CPS_2022.yml data_lvl02/484_Mulching_NHCP_CPS_2017.yml > data_lvl03/484_compare.log
-```
-
-# 327
-
-```{sh eval=FALSE}
-diff data_lvl02/327_Conservation_Cover_PI_CPS_2016.yaml data_lvl02/327_Conservation_Cover_NHCP_CPS_2014.yml > data_lvl03/327_compare.log
-```
-
-## CSP 380 Windbreak
-
-```{sh eval=FALSE}
-diff data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yaml data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yaml > data_lvl03/380_compare.log
-```
-
-```{r}
-NHCP380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yaml')
-PIA380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yaml')
-
-```
-
-
-## CSP 379 Forest Farming
+# TODO: CSP 379 Forest Farming
 
 ```{sh eval=FALSE}
 diff data_lvl02/379_Forest_Farming_NHCP_CPS_2020.yaml data_lvl02/379_Forest_Farming_PIA_CPS_2023.yaml > data_lvl03/379_compare.log
@@ -74,15 +85,3 @@ NHCP380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CP
 #base::intersect(PIA380, NHCP380)
 ```
 
-## CSP 612 Tree Shrub Establishment
-
-```{sh eval=FALSE}
-diff data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yaml data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yaml > data_lvl03/612_compare.log
-```
-
-```{r}
-PIA612 <- read_yaml('data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yaml')
-
-NHCP612 <- read_yaml('data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yaml')
-
-```
