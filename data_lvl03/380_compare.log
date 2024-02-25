@@ -18,12 +18,7 @@
 ---
 >   - Select only tree and/or shrub species identifed in the NRCS Pacific Islands Area (PIA) Vegetative Specification for this practice standard (CPS 380) or those approved by variance request to the PIA Ecological Sciences Division.
 >     Ensure selected species are adapted to soils, climate, and other site conditions.
-31c30,31
-<     Space individual plants based on the growing area needed by each species, with accommodation for maintenance equipment and for the desired configuration of the stems, branches, and canopy to achieve windbreak purposes.
----
->     Space individual plants based on the growing area needed by each species, with accommodation for
->     maintenance equipment and for the desired configuration of the stems, branches, and canopy to achieve windbreak purposes.
-46,54d45
+46,54d44
 <   to Manage Snow Deposition:
 <   - Orient the windbreak as close to perpendicular to the predominant snow-bearing wind as practical.
 <     Locate windbreaks so that snow deposition will not pose a health or safety problem, management constraint, or obstruct human, animal, or vehicular traffic.
@@ -33,32 +28,32 @@
 <   for Managing Snow Distribution:
 <   - For managing snow distribution across a field, windbreak density during expected snow-producing months should be 25 to 50 percent.
 <     The interval between windbreaks should not exceed 20H.
-56c47
+56c46
 <   - Use windbreaks as needed to provide shade and reduce wind or snow impacts to animals, structures, and humans, or to reduce energy use.
 ---
 >   - Use windbreaks as needed to provide shade and reduce wind impacts to animals, structures, and humans, or to reduce energy use.
-60,61c51
+60,61c50
 <   - Prevent snowmelt drainage from a windbreak from flowing across an area of animal confinement.
 <     Prevent drainage of animal waste into a windbreak.
 ---
 >   - Prevent drainage of animal waste into a windbreak.
-96c86
+96c85
 <     When woody residue or other debris requires onsite burning, use NRCS CPS Prescribed Burning (Code 338).
 ---
 >     Burning woody residue or other debris is not an authorized management treatment under NRCS technical or financial assistance in the Pacific Islands Area.
-111,112c101
+111,112c100
 <   - Use deciduous trees on south and west sides of structures to reduce summer energy use.
 <     Use conifer windbreaks to reduce impacts of prevailing winter winds and reduce energy use.
 ---
 >   - Locate trees on south and west sides of structures to reduce summer energy use.
-120,125d108
+120,125d107
 <   Managing Snow:
 <   - Consider additional actions for situations where a windbreak alone does not provide enough snow storage.
 <     Add windbreak rows or obtain supplementary storage with temporary or herbaceous wind barriers, constructed or living snow fences, or by retaining standing crop residues within the fetch (storage) area.
 <     Retain standing crop residues to enhance the effectiveness of windbreaks in uniformly distributing snow across a field.
 <   - To control end drifts, extend the length of the windbreak beyond the protected area, add supplemental windbreak legs, use greater setback distances, and/or use temporary or herbaceous wind barriers.
 <   - Secondary windbreaks made up of shorter tree species can be used to address snow control when winds come from directions different than the prevailing wind.
-150c133
+150c132
 < - - Prepare specifications for windbreak establishment in accordance with this standard for each site and purpose in the implementation requirements document.
 ---
 > - - Prepare specifications for windbreak establishment and/or restoration in accordance with this standard for each site and purpose in the implementation requirements document.
