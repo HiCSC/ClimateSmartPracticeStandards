@@ -9,39 +9,47 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# 380
+# (380) WINDBREAK-SHELTERBELT ESTABLISHMENT AND RENOVATION
 
-```{sh}
+
+Overall references to snow are removed from Pacific Island specifications, burning is not allowed in Pacific Islands, species are specifications are difference, and restoration is explicitly named in Pacific islands.
+
+```{sh eval=FALSE}
 diff data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yml data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yml > data_lvl03/380_compare.log
+```
+
+```{r}
+#read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yml')
+#read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yml')
 ```
 
 # 612
 
-```{sh}
+```{sh eval=FALSE}
 diff data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yml data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yml > data_lvl03/612_compare.log
 ```
 
 # 336
 
-```{sh}
+```{sh eval=FALSE}
 diff data_lvl02/336_Soil_Carbon_Amendment_PI_CPS.yml data_lvl02/336_Soil_Carbon_Amendment_NHCP_CPS_2022.yml > data_lvl03/336_compare.log
 ```
 
 # 484
 
-```{sh}
+```{sh eval=FALSE}
 diff data_lvl02/484_Mulching_PI_CPS_2022.yml data_lvl02/484_Mulching_NHCP_CPS_2017.yml > data_lvl03/484_compare.log
 ```
 
 # 327
 
-```{sh}
+```{sh eval=FALSE}
 diff data_lvl02/327_Conservation_Cover_PI_CPS_2016.yaml data_lvl02/327_Conservation_Cover_NHCP_CPS_2014.yml > data_lvl03/327_compare.log
 ```
 
 ## CSP 380 Windbreak
 
-```{sh}
+```{sh eval=FALSE}
 diff data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CPS_2021.yaml data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_2022.yaml > data_lvl03/380_compare.log
 ```
 
@@ -54,7 +62,7 @@ PIA380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_PIA_CPS_
 
 ## CSP 379 Forest Farming
 
-```{sh}
+```{sh eval=FALSE}
 diff data_lvl02/379_Forest_Farming_NHCP_CPS_2020.yaml data_lvl02/379_Forest_Farming_PIA_CPS_2023.yaml > data_lvl03/379_compare.log
 ```
 
@@ -68,7 +76,7 @@ NHCP380 <- read_yaml('data_lvl02/380_Windbreak_Shelterbelt_Establishment_NHCP_CP
 
 ## CSP 612 Tree Shrub Establishment
 
-```{sh}
+```{sh eval=FALSE}
 diff data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yaml data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yaml > data_lvl03/612_compare.log
 ```
 
@@ -78,55 +86,3 @@ PIA612 <- read_yaml('data_lvl02/612_Tree_Shrub_Establishment_PI_CPS_2017.yaml')
 NHCP612 <- read_yaml('data_lvl02/612_Tree_Shrub_Establishment_NHCP_CPS_2022.yaml')
 
 ```
-
-### Symantic differences
-
-#### Definition
-PI standards allow for "seedlings or cuttings" where as national standard does not.
-
-```{r}
-PIA612$definition
-NHCP612$definition
-```
-
-#### Purpose
-
-PI standards allow for "`r PIA612$purpose[8]`"
-
-All other differences seem to be semantic
-
-```{r}
-PIA612$purpose
-NHCP612$purpose
-```
-
-Conditions are the same.
-
-#### Criteria 
-
-TODO CHECK CRITERIA TO SEE IF THERE ARE SIGNIFICANT DIFFERENCES
-
-```{r}
-PIA612$criteia
-
-NHCP612$criteia
-```
-
-#### considerations
-
-PI does not have 'Reducing Energy Use' as a possible consideration
-
-TODO CHECK CONSIDEATIONS FOR EFFECTIVE MAPPING
-
-```{r}
-PIA612$considerations
-
-NHCP612$considerations
-```
-
-## Pending
-
-Mulching 484
-Conservation cover 327
-Nutrient Management 590
-
