@@ -1,0 +1,90 @@
+4,5c4,5
+< version: NHCP - July 2022
+< definition: Modifying physical soil and/or plant conditions with mechanical treatments.
+---
+> version: PI - February 2015
+> definition: Modifying physical soil and/or plant conditions with mechanical tools by treatments such as pitting, contour furrowing, and chiseling, ripping or subsoiling.
+7c7
+< - 'This practice is used to accomplish one or more of the following purposes:'
+---
+> - This practice is used to accomplish one or more of the following purposes–
+9c9
+< - '           • Reduce water runoff and increase infiltration'
+---
+> - '           • Reduction in water runoff and increased infiltration'
+11c11
+< - '           • Renovate and stimulate the plant community for greater productivity
+---
+> - '           • Renovation and stimulation of plant community for greater productivity
+13c13
+< conditions: This standard applies to pastureland, rangeland, grazed forest, and native pastures where the slopes are less than 20 percent.
+---
+> conditions: This standard may be applied on pastureland, rangeland, grazed forest, and native pastures where the slopes are less than 30 percent.
+15,27c15,23
+< - Plan, design, and implement this practice to comply with all Federal, State and local regulations.
+<   The landowner must obtain any required permits.
+<   The landowner/contractor is responsible for locating buried utilities, drain tile, and other structures within the treatment area.
+< - Design mechanical treatments to accomplish the desired objectives and address the natural resource concerns.
+< - Limit mechanical treatments such as contour furrowing, pitting, chiseling, ripping, or subsoiling to soils and slopes where surface disturbances will not result in unacceptable levels of soil erosion.
+<   Conduct these operations on the contour to reduce the potential for erosion.
+< - Use surface and soil disturbing mechanical treatments such as flailing, mulching, shredding, and slashing to break up thatch, tussock, or root-bound conditions to improve plant vigor.
+<   Limit the use of these practices to terrain and soil conditions that are conducive to this type of mechanical treatment.
+< - - Treatment areas must—
+<   - '           • Be relatively free of undesirable or noxious plants that will spread as a result of disturbance.'
+<   - '           • Contain sufficient quantities and distribution of desirable plants to take advantage of improved growing conditions as a result of the treatment.'
+<   - '           • Have adequate rest from grazing to ensure the desired plant response from the treatment.'
+<   - '  • Have suitable soil moisture conditions (not too wet) at the time of treatment.'
+---
+> - Mechanical treatments such as contour furrowing, pitting, chiseling, ripping, or subsoiling shall be designed and applied in a manner to accomplish the desired objectives and address the natural resource concerns.
+>   These treatments shall be limited to soils and slopes where surface disturbances will not result in unacceptable levels of soil erosion and/or sedimentation.
+>   Prescribed grazing (528) will follow any grazing land mechanical treatment application.
+> - Areas to be treated shall be relatively free of undesirable or noxious plants that are likely to increase because of surface disturbance.
+> - If natural plant community is desired, desirable plant species shall be of sufficient quantity and have a distribution pattern that allows the plants to take advantage of the improved moisture and to spread into disturbed areas.
+> - Adequate rest from grazing shall be applied to ensure desired plant responses from this treatment.
+> - All treatments should be planned on the contour when conditions warrant.
+> - Assure soil is not too wet prior to treatment.
+> - All work performed under this standard shall comply with State, federal, and local laws and regulations.
+29,44c25,33
+< - Grazing land mechanical treatment is often used in conjunction with other NRCS Conservation Practice Standards (CPSs) to improve grazing conditions.
+<   Consider Using NRCS CPSs Range Planting (Code 550), Pasture and Hay Planting (Code 512), Prescribed Grazing (Code 528), Herbaceous Weed Treatment (Code 315), and Nutrient Management (Code 590).
+< - Soil disturbance resulting from this practice can result in an increase in noxious or invasive plants following treatment.
+< - Increased surface roughness from the practice may make the treated area undesirable for some uses.
+< - The use of a probe or other suitable tool can help identify compacted layers within the treatment area that may need additional treatment.
+< - Soil disturbance from the practice may impact an animal’s ability to navigate the terrain following treatment.
+<   Ensure the treatment and resulting conditions are suitable for grazing animals, or keep animals off the treated areas until conditions are suitable.
+< - To avoid negatively impacting wet soils following a rip or chisel treatment, consider scheduling 2 or more years of seasonally-deferred grazing.
+< - Consider appropriate treatment intensity to stimulate the plant community and ensure a desirable species response.
+< - If the selected mechanical treatment exceeds the depth of prior ground disturbances, this activity could affect buried cultural resources.
+< plans_specifications:
+< - - Prepare plans and specifications that describe the requirements for applying the practice according to this standard.
+<     As a minimum, include—
+<   - '  • A map or plan view showing the land areas to be treated.'
+<   - '  • Written specifications that describe the details and timing for applying the treatment.'
+<   - '  • Job sheets or other detailed information specific to the treatment to be used.'
+---
+> - Conservation practice standards Range Planting (550), Forage and Biomass Planting (512), Prescribed Grazing (528), Herbaceous Weed Control (315), and Nutrient Management (590) may be used in conjunction with Grazing Land Mechanical Treatment.
+> - Increase in noxious or invasive plants may occur following treatment.
+> - Increased surface roughness may make the treated area undesirable for some uses.
+> - Investigate for compacted layers with a probe or other appropriate tool prior to treatment.
+> - Investigate for tile drainage systems, pipelines and other buried structures prior to work.
+> - Consider animal’s ability to navigate terrain following treatment.
+> - Consider cultural resources when planning this practice.
+>   If the selected mechanical treatment will exceed the depth of prior ground disturbance, this activity could affect buried cultural resources.
+> plans_specifications: Specifications for installation of Grazing Land Mechanical Treatment shall be prepared for each site or planning unit according to the criteria. Specifications shall be recorded using the Pacific Islands Area Grazing Land Mechanical Treatment (548) jobsheet.
+46,50c35,38
+< - - Prepare an operation and maintenance plan for the operator.
+<     As a minimum, include—
+<   - '  • A schedule for periodic monitoring to ensure the desired plants and soil conditions return to the treated area.'
+<   - '  • A grazing schedule for the treated area developed using NRCS CPS Prescribed Grazing (Code 528).'
+<   - '  • Recommendations for maintenance activities to ensure the long-term health of the treated area.'
+---
+> - Implementation of a prescribed grazing plan according to the 528 standard is essential for the long-term operation of this practice.
+>   Heavy equipment use that will compact the soil in treated areas shall be deferred until autogenic repair processes have been restored.
+>   If the desired effects of grazing land mechanical treatment are lost over time, the practice may need to be repeated.
+> - Record practice operation and maintenance using the Pacific Islands Area Grazing Land Mechanical Treatment (548) jobsheet.
+52d39
+< - 'Barbosa, R.A., D.N. Junior, H.H. Vilela, B.M. Lana Sousa, S.C. Silva, V.P. Euclides, and M.C. Silveira. 2012. Morphogenetic and Structural Characteristics of Guinea Grass Tillers at Different Ages Under Intermittent Stocking. Revista Brasileira de Zootecnia 41(7): 1583-1588.'
+54d40
+< - 'Miyamoto, D.L., G.E.Schuman, and R.A.Olson. 2004. Long-term Effects of Mechanical Renovation of a Mixed Grass Prairie: Carbon and Nitrogen Balance. Arid Land Research and Management 18(2): 141- 151. https://doi.org/10.1080/15324980490280807'
+57d42
+< - 'Wilcox, B.P., W.E. Fox, L.J. Prcin, J. McAlister, J. Wolfe, D.M. Thomas, R.W. Knight, D.W. Hoffman, and F.E. Smeins. 2012. Contour Ripping is More Beneficial Than Composted Manure for Restoring Degraded Rangelands in Central Texas. Journal of Environmental Management 111: 87-95. https://doi.org/10.1016/j.jenvman.2012.06.029'
