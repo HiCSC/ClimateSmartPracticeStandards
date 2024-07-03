@@ -1,0 +1,43 @@
+3,4c3,4
+< unit: (ac)
+< version: PI - September 2018
+---
+> unit: (Ac)
+> version: NHCP - March 2017
+8d7
+< - This practice is used to accomplish one or more of the following purposes–
+17c16
+< - This practice does not apply to removal of woody vegetation to facilitate a land-use change (use CPS Land Clearing (Code 460)).
+---
+> - This practice does not apply to removal of woody vegetation by prescribed fire (use Conservation Practice Standard (CPS) Prescribed Burning (Code 338)) or removal of woody vegetation to facilitate a land-use change (use CPS Land Clearing (Code 460)).
+21c20
+<   - Brush management will achieve the desired control of the target woody species and protection of desired species. This will be accomplished by mechanical, chemical, or biological methods, either alone or in combination
+---
+>   - Brush management will be applied in a manner to achieve the desired control of the target woody species and protection of desired species. This will be accomplished by mechanical, chemical, burning, or biological methods, either alone or in combination. When prescribed burning is used as a method, CPS Prescribed Burning (Code 338) will also be applied.
+23d21
+<   - It is the responsibility of the planner and the client to identify a proven strategy for use on targeted species under this practice. Strategies must provide for adequate control to address the resource concern for the lifespan of the practice (10 years). Consult with local extension specialists, NRCS technical specialists, invasive species councils, watershed partnerships, published references or websites and/or other professionals including other conservation planners and producers that have experience managing the targeted species.
+32c30
+<   - In conjunction with other conservation practices, the number, sequence, and timing of soil-disturbing operations must be managed to maintain soil loss within acceptable levels using approved erosion prediction technology. An appropriate revegetation practice will follow mechanical treatments that result in large bare areas to ensure a desirable plant community post-treatment.
+---
+>   - In conjunction with other conservation practices, the number, sequence, and timing of soil-disturbing operations must be managed to maintain soil loss within acceptable levels using approved erosion prediction technology.
+37c35
+<   - Timing and sequence of brush management must be planned in coordination with specifications developed for CPS Prescribed Grazing (Code 528). An appropriate revegetation practice will follow mechanical treatments that result in large bare areas to ensure a desirable plant community post-treatment.
+---
+>   - Timing and sequence of brush management must be planned in coordination with specifications developed for CPS Prescribed Grazing (Code 528).
+39c37
+<   - Additional treatments are planned and will be applied to achieve effective control of pervasive plant species through reapplication. Treatments must either be proven or be reasonably expected to lead to successful reduction and management with consultation with the SRMS or UH Extension Specialist.
+---
+>   - Additional treatments are planned and will be applied to achieve effective control of pervasive plant species through reapplication.
+43d40
+< - Consider effects to Water Quality for chemical and mechanical treatments. Evaluate chemical usage with WIN-PST or other agency-approved evaluation tool. Plan mechanical treatments, brush manipulations and revegetation activities to minimize risk of sediment moving into surface water.
+62,63c59
+<   - • Techniques or procedures to be followed including measures to prevent water quality impacts from sediment.
+<   - • Appropriate revegetation practice following treatment to ensure the resource concern is addressed.
+---
+>   - • Techniques or procedures to be followed.
+67d62
+<   - • Documented techniques to be used, planned dates and rates of application.
+93c88
+<   - Following initial application, some regrowth, resprouting, or reoccurrence of brush may be expected. Spot treat individual plants or areas needing retreatment as needed while woody vegetation is small and most vulnerable to desired treatment procedures.
+---
+>   - Following initial application, some regrowth, resprouting, or reoccurrence of brush may be expected. Spot treatment of individual plants or areas needing retreatment should be completed as needed while woody vegetation is small and most vulnerable to desired treatment procedures.

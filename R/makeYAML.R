@@ -1,51 +1,11 @@
----
-title: "Climate Smart Practices: moving from pdf to yaml"
-author: "Todd-Brown, K"
-date: "2024-01-23"
-output: html_document
----
 
-```{r setup, include=FALSE}
-library(tidyverse)
-library(pdftools)
-library(yaml)
-
-source('R/makeYAML.R')
-
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
-
-```{r}
-directYAML <- 'data_lvl01'
-
-pdfFiles <- list.files(path = 'USDA_CSP_pdf', full.names = TRUE, recursive = TRUE)
-```
-
-## convert PDF to YAML
-
-```{r}
-pdfFiles[str_detect(pdfFiles, '314')]
-makeYAML(sourcePDF = pdfFiles[str_detect(pdfFiles, '314')][1],
-        directYAML = 'data_lvl01')
-```
-
-## Copy over the YAML and edit
-
-```{r}
-
-```
-
-## To Dataframe
-
-```{r eval=FALSE}
-#high priority 
-#Windbreak (380) #17 and #18
-#Forest Farming (379) #15 #16
-
-allPractices <- plyr::ldply(setNames(pdfFiles[15:18], pdfFiles[15:18]), .id = 'filename',
-                            .fun = function(sourcePDF){
+makeYAML <- function(sourcePDF, directYAML = 'data_lvl01'){
+  #sourcePDF <- 'USDA_CSP_pdf/314_Brush_Management_PI_CPS_2018.pdf'
+  if(grepl(pattern = '327_Conservation_Cover_NHCP_CPS_2014.pdf', x = sourcePDF)){
+    #two column standard needs to be manually copied
+    stop('')
+  }
+  
   org_temp <- pdf_text(pdf = sourcePDF)
   
   #####Clean up text ########
@@ -108,7 +68,7 @@ allPractices <- plyr::ldply(setNames(pdfFiles[15:18], pdfFiles[15:18]), .id = 'f
     references =  regex('(?<=REFERENCES).*', dotall = TRUE))
   
   ## Apply to the lines
-  elements <- plyr::ldply(dimentions.ls, .id = 'dimention', .fun = function(xx){
+  elements <- plyr::llply(dimentions.ls, .fun = function(xx){
     ans <- str_extract(pattern = xx, string = paste0(temp, collapse = '\n'))
     ans <- str_trim(ans)
     if(str_detect("(?<=CRITERIA).*(?=CONSIDERATIONS)", xx) &
@@ -132,50 +92,30 @@ allPractices <- plyr::ldply(setNames(pdfFiles[15:18], pdfFiles[15:18]), .id = 'f
     }else{
       ans <- as.list(ans) 
     }
-    ans <- setNames(ans, 1:length(ans))
-    
-    ans <- plyr::ldply(ans, .id = 'term', .fun = function(zz){
+    ans <- plyr::llply(ans, .fun = function(zz){
       #pair any list with the line before it by removing the \n\n
       ans3 <- str_remove_all(zz, pattern = '\\n(?=\\n\\s+•)')
       ans3 <- as.list(unlist(str_split(ans3, pattern = '\\n\\n')))
       ans3 <- str_split(str_trim(ans3), pattern = '\\n(?=\\s+•)')
-      
-      ans3 <- setNames(ans3, 1:length(ans3))
-      
-      ans3 <- plyr::ldply(ans3, .id = 'clause', .fun = function(yy){
+      ans3 <- plyr::llply(ans3, .fun = function(yy){
         ans2 <- str_replace_all(string = yy, 
                                 pattern = '(?<=\\S)\\n?\\s+', 
                                 replacement = ' ')
         ans2 <- str_remove_all(string = ans2, pattern = '\\s+$')
-        return(tibble(line = 1:length(ans2), 
-                      text = ans2))
+        return(ans2)
       })
       return(ans3)
     })
-    
+    if(length(ans) == 1){
+      ans <- unlist(ans)
+    }
     return(ans)
   })
-  
-  
-  elements2 <- bind_rows(tibble(dimention = c('practice_name', 'practice_code', 'unit', 'version'),
-                      text = c(practiceName, code, unitAbv, version)), elements)
-
-  
-})
-
-comparison <- allPractices %>%
-  mutate(practice = str_extract(filename, '(?<=/)\\d{3}(?=_)'),
-         region = str_extract(filename, '[^_]+(?=_CPS)')) %>%
-  select(practice, region, dimention, term, clause, line, text) 
-
-PIA.df <- comparison %>%
-  filter(region == 'PIA') %>%
-  select(practice, dimention, text)
-
-NHCP.df <- comparison %>%
-  filter(region == 'NHCP') %>%
-  select(practice, dimention, text)
-
-onlyPIA.cd <- anti_join(PIA.df, NHCP.df)
-```
-
+  elements2 <- c(list(practice_name = practiceName,
+                      practice_code = code,
+                      unit = unitAbv,
+                      version = version), elements)
+  write_file(as.yaml(elements2), file = #file.path(directYAML, 'test.yml')
+               file.path(directYAML, paste0(str_remove(basename(sourcePDF), 'pdf'), 'yml'))
+  )
+}

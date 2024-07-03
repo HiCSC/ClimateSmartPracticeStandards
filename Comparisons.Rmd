@@ -6,6 +6,9 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
+library(yaml)
+
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -35,6 +38,19 @@ diff data_lvl02/484_Mulching_PI_CPS_2022.yml data_lvl02/484_Mulching_NHCP_CPS_20
 ```{r}
 cat(paste0(read_lines('data_lvl03/484_compare.log'), collapse = '\n'))
 ```
+
+# Brush Management (314)
+
+**Summarize differences**
+
+```{sh eval=FALSE}
+diff data_lvl02/314_Brush_Management_PI_CPS_2018.yml data_lvl02/314_Brush_Management_NHCP_CPS_2017.yml > data_lvl03/314_compare.log
+```
+
+```{r}
+cat(paste0(read_lines('data_lvl03/484_compare.log'), collapse = '\n'))
+```
+
 
 # CONSERVATION COVER (327)
 
